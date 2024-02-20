@@ -4,7 +4,7 @@ import streamlit as st
 st.header('Dados Veículos')
 car_data = pd.read_csv('vehicles.csv')  # lendo os dados
 hist_button = st.button('Criar histograma')  # criar um botão
-graf_box = st.checkbox('Gráfico dispesão')
+graf_box = st.checkbox('Gráfico dispersão')
 
 
 if hist_button:  # se o botão for clicado
